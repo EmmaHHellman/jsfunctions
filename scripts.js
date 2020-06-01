@@ -20,3 +20,17 @@ const divide = Math.floor(length / 2);
 const character = sentence.charAt(divide);
 return alert(character + sentence);
 }
+
+let sentence = prompt("Enter a sentence");
+
+function reverseString(sentence) {
+  return str.split("").reverse().join("");
+}
+reverseString(sentence);
+
+let sentence = prompt("Enter a sentence");
+
+function reverseString(sentence) {
+  return sentence.split("").reverse().join("");
+}
+alert(reverseString(sentence));
